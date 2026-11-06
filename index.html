@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Marquez Tech Systems provides practical software and system design solutions for businesses.">
+<title>Marquez Tech Systems | Business Portfolio</title>
+<style>
+:root{--navy:#101b35;--blue:#3563e9;--cyan:#27c4d9;--ink:#18243a;--muted:#65718a;--light:#f4f7fc;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--ink);line-height:1.6}
+header{background:rgba(16,27,53,.97);color:white;position:sticky;top:0;z-index:5}
+.nav{max-width:1120px;margin:auto;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-weight:800;letter-spacing:.5px}.brand span{color:var(--cyan)}
+nav a{color:#e7edff;text-decoration:none;margin-left:22px;font-size:14px}nav a:hover{color:var(--cyan)}
+.hero{background:radial-gradient(circle at 80% 20%,#294d9b 0,#17284e 35%,#101b35 75%);color:white;padding:100px 24px 105px}
+.wrap{max-width:1120px;margin:auto}.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:50px;align-items:center}
+.eyebrow{color:#78e5ee;text-transform:uppercase;font-weight:700;letter-spacing:2px;font-size:12px}
+h1{font-size:clamp(40px,6vw,64px);line-height:1.08;margin:15px 0 20px;letter-spacing:-1.8px}
+.hero p{color:#d4def4;max-width:620px;font-size:18px}.btn{display:inline-block;background:var(--cyan);color:#082039;text-decoration:none;padding:13px 22px;border-radius:8px;font-weight:800;margin-top:18px}
+.visual{min-height:300px;border:1px solid #49659b;border-radius:24px;background:linear-gradient(145deg,#203968,#142342);padding:25px;box-shadow:0 25px 70px #050b1d66}
+.window{background:#0d1830;border-radius:14px;padding:18px;border:1px solid #405783}.dots{display:flex;gap:6px;margin-bottom:20px}.dots i{width:8px;height:8px;border-radius:50%;background:#6e83ad}
+.bar{height:10px;border-radius:10px;background:#2e4777;margin:13px 0}.bar.short{width:48%}.bar.mid{width:72%}
+.tiles{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:20px}.tile{height:65px;border-radius:10px;background:linear-gradient(120deg,#2d55a5,#287b9a);opacity:.9}
+section{padding:78px 24px}.light{background:var(--light)}.section-head{text-align:center;max-width:700px;margin:0 auto 42px}.section-head h2{font-size:34px;margin:0 0 10px;color:var(--navy)}.section-head p{color:var(--muted);margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:white;border:1px solid #e4eaf4;border-radius:16px;padding:26px;box-shadow:0 8px 25px #15264b0a}.icon{width:45px;height:45px;border-radius:12px;background:#e9f4ff;color:var(--blue);display:grid;place-items:center;font-size:21px;font-weight:800}.card h3{margin:17px 0 8px;color:var(--navy)}.card p{color:var(--muted);font-size:15px;margin:0}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.about h2{font-size:34px;color:var(--navy);line-height:1.2}.about p{color:var(--muted)}.points{padding:0;list-style:none}.points li{padding:8px 0}.points li:before{content:"✓";color:#159eac;font-weight:900;margin-right:10px}
+.project{background:linear-gradient(135deg,#17284e,#244b89);color:white;border-radius:20px;padding:32px}.project p{color:#d8e4fa}.tag{display:inline-block;border:1px solid #7895c9;border-radius:30px;padding:5px 10px;font-size:12px;margin:4px}
+.contact{background:var(--navy);color:white;text-align:center}.contact h2{font-size:34px}.contact p{color:#cbd6ec}.contact .btn{margin-top:12px}
+footer{background:#0b1429;color:#aab7d2;padding:22px 24px;text-align:center;font-size:13px}
+@media(max-width:760px){.hero-grid,.about{grid-template-columns:1fr}.visual{min-height:230px}.cards{grid-template-columns:1fr}nav a{margin-left:10px;font-size:12px}.nav{padding:14px 16px}section{padding:58px 20px}.hero{padding:70px 20px}}
+</style>
+</head>
+<body>
+<header><div class="nav"><div class="brand">MARQUEZ <span>TECH SYSTEMS</span></div>
+<nav><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav></div></header>
+<main>
+<section class="hero"><div class="wrap hero-grid"><div>
+<div class="eyebrow">Technology • Systems • Solutions</div>
+<h1>Technology that makes business work smarter.</h1>
+<p>Marquez Tech Systems creates practical digital solutions that help businesses organize information, improve daily operations, and serve their customers more efficiently.</p>
+<a class="btn" href="#services">Explore Our Services</a>
+</div><div class="visual" aria-label="Abstract software dashboard illustration"><div class="window"><div class="dots"><i></i><i></i><i></i></div><div class="bar short"></div><div class="bar mid"></div><div class="tiles"><div class="tile"></div><div class="tile"></div><div class="tile"></div><div class="tile"></div></div></div></div></div></section>
+<section id="about"><div class="wrap about"><div><div class="eyebrow" style="color:#3563e9">Who We Are</div><h2>Simple, useful, and reliable digital solutions.</h2><p>Marquez Tech Systems is a technology-focused business offering system design and software development services. We aim to understand each client's needs and turn everyday business challenges into organized, easy-to-use digital tools.</p><p>Our approach puts usability, clear processes, and practical value at the center of every project.</p></div><div class="card"><h3>Our Mission</h3><p>To provide accessible and dependable technology solutions that help businesses improve productivity and manage their operations.</p><h3>Our Vision</h3><p>To become a trusted technology partner for businesses seeking practical and user-friendly digital systems.</p><h3>Business Location</h3><p>Tondo, Manila, Philippines</p></div></div></section>
+<section id="services" class="light"><div class="wrap"><div class="section-head"><h2>Our Services</h2><p>Technology services designed around real business needs.</p></div><div class="cards">
+<div class="card"><div class="icon">01</div><h3>Custom Business Systems</h3><p>Design and development of systems that organize records, transactions, workflows, and daily business activities.</p></div>
+<div class="card"><div class="icon">02</div><h3>Website Development</h3><p>Responsive business websites that introduce a company, explain its services, and make it easier for customers to connect.</p></div>
+<div class="card"><div class="icon">03</div><h3>Database & Record Management</h3><p>Structured database solutions that help keep business information organized, searchable, and easier to maintain.</p></div>
+</div></div></section>
+<section id="projects"><div class="wrap"><div class="section-head"><h2>Featured Project</h2><p>A sample of the type of practical system solutions we can develop.</p></div>
+<div class="project"><div class="eyebrow">System Development</div><h2>RFID & Facial Recognition Attendance System</h2><p>An attendance management project that combines RFID identification and facial verification to record employee time-in and time-out, manage attendance records, and support payroll computation.</p><span class="tag">C# Windows Forms</span><span class="tag">RFID</span><span class="tag">Facial Recognition</span><span class="tag">MySQL</span><span class="tag">Flask API</span></div>
+</div></section>
+<section class="light"><div class="wrap about"><div><div class="eyebrow" style="color:#3563e9">Why Work With Us</div><h2>Built around the way your business works.</h2><p>Every business has different processes. We focus on understanding the problem first, then planning a solution that is useful, understandable, and appropriate for the client's needs.</p></div><ul class="points"><li>Practical and user-focused system design</li><li>Organized data and workflows</li><li>Responsive website layouts</li><li>Solutions planned around client requirements</li></ul></div></section>
+<section id="contact" class="contact"><div class="wrap"><div class="eyebrow">Let's Build Something Useful</div><h2>Have a business process to improve?</h2><p>Tell us about your project or the challenge you want to solve.</p><p><strong>MARQUEZ TECH SYSTEMS</strong><br>Tondo, Manila, Philippines<br>Email: christobalmarquez258@gmail.com <br>Phone: 09344081347 </p><a class="btn" href="mailto:christobalmarquez258@gmail.com?subject=Business%20Inquiry">Email Us</a></div></section>
+</main>
+<footer>© 2026 Marquez Tech Systems. All rights reserved. | Business Portfolio</footer>
+</body></html>
